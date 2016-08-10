@@ -1,0 +1,128 @@
+main {
+	width:700px;
+	min-height: 60px;
+	padding-left: 80px;
+}
+
+hr {
+    width:600px;
+	border: 1px dotted red;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+header {
+	width:780px;
+	font-family: verdana, sans-serif;
+	font-size:26px;
+	font-style: bold;
+	text-align: center;
+}
+
+nav {
+	width:110px;
+	font-family: verdana, sans-serif;
+	font-style: bold;
+	text-align:left;
+	font-size:12px;
+	position: absolute;
+	top:95px;
+	left:0px;
+	content-align: center;
+}
+
+ul {
+	list-style-type: none;	
+	overflow:hidden;
+}
+
+li{
+	display:block;
+	padding-top:8px;
+	padding-left:5px;
+	padding-bottom:15px;
+}
+
+.textbox{
+	width:300px;
+	height:600px;
+	font-family: times;
+	font-size: 14px;
+	text-align: left;
+	padding:15px;
+	float:left;
+}
+
+.textbox2{
+	width:300px;
+	height:600px;
+	font-family: times;
+	font-size: 14px;
+	text-align: left;
+	padding:15px;
+	float:left;
+}
+
+img{
+	padding-right:5px;
+	float:left;
+}
+
+.navbox{
+	width:57px;
+	height:108px;
+	padding:6px;
+	margin-bottom:5px;
+	background-color: pink;
+}
+
+
+
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+    background-color: blue;   
+    text-decoration: none;
+}
+
+
+li:hover {
+    color: red;
+    background-color: rgba(255,100,100,0.5);
+    text-decoration: none;
+backface-visibility: visible;
+}
+
+
+/*.mediaBar {
+	width:45px;
+	height:130px;
+	position:fixed;
+	padding:12px;
+	top:270px;
+	left:0px;
+	background-color: rgba(20,20,200,.2);
+}*/
+
+.mediaBar {
+	width:30px;
+	height:70px;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: rgba(20,20,200,.2);
+}
+
+
+
+
+
+
+
+

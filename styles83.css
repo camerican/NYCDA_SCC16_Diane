@@ -1,0 +1,86 @@
+.box{
+	width:100px;
+	height:60px;
+	border:1px dotted black;
+	background-color: rgba(150,50,130,.75);
+	display: inline-block;
+	margin:5px;
+	padding-top: 40px;
+}
+
+/*clear doesn't work on inline-block elements.
+elements must be set to float for clear to work*/
+.jump{
+	clear: right;
+}
+
+img{
+	float:left;
+	padding: 10px;
+}
+
+p.one{
+	font-family: georgia;
+	font-size: 14px;
+	color:white;
+	padding: 10px;
+	margin:8px;
+	text-align: left;
+}
+
+main {
+	width:80%;
+	min-height:50px;
+	background-color: rgb(100,30,100);
+	font-family: times;
+	font-size: 16px;
+	text-align: center;
+}
+
+p.textbox {
+	text-align: left;
+	padding-top: 10px;
+	font-family: sans-serif;
+	font-size: 16px;
+	color:white;
+}
+
+.demo{
+	background-color: orange;
+	position: relative;
+	left:20px;
+}
+
+.demo2{
+	background-color: blue;
+	position: relative;
+	left:10px;
+}
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+
+
+
+
+#overlay{
+	position:fixed;
+	background-color: rgba(100,100,100,.5);
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index:10;
+}
+
+
+
+
+
+
+
+
+
