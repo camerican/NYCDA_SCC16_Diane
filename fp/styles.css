@@ -108,14 +108,6 @@ h1.subhead{
 	left:500px;
 }
 
-
-
-
-
-
-
-
-
 nav {
 	width:35px;
 	height:100%;
@@ -138,6 +130,19 @@ ul {
 	padding-top:17px;
 	padding-bottom:0px;
 	float:left;
+  text-decoration: none;
+  backface-visibility: visible;
+  cursor:pointer;
+  padding-top:17px;
+  margin:0;
+  background-color: rgba(191,0,37,0);
+  transition: all .2s linear, background-color .1s;
+  overflow-x:hidden;
+}
+.box:hover {
+  width:inherit;
+  padding-right:17px;
+  background-color: rgba(191,0,37,1);
 }
 .box span{
 	opacity:0;
@@ -146,12 +151,10 @@ ul {
 
 .box:hover span{
 	opacity:1;
-
 }
 
 
 li{
-	width:40px;
 	font-size:20px;
 	font-weight:lighter;
 	color:white;
@@ -186,23 +189,6 @@ a:link {
 
 a:visited {   
     text-decoration: none;
-}
-
-
-li:hover {
-	width:170px;
-	height:40px;
-    color:white;
-    background-color: rgb(191,0,37);
-    text-decoration: none;
-	backface-visibility: visible;
-    padding-top:17px;
-    margin:0;
-}
-
-li {
-	transition: width 1s linear; 
-
 }
 
 
