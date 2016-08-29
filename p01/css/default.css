@@ -1,0 +1,30 @@
+/*CSS styling for Issue 1*/
+
+div.shades {
+	width: 1100px; 
+	margin: 0 auto;
+	}
+
+/*CSS styling for Issue 3*/
+div.excite {
+	width: 1100px; 
+	margin: 0 auto;
+	}
+
+/*CSS styling for the contact page*/
+img#cheever {
+    float: left;
+    margin: 10px;
+	}
+img#dangelo {
+    float: right;
+    margin: 10px;
+	}
+div.activist {
+	width: 900px; 
+	margin: 0 auto;
+	display: block;
+	font-size: 120%;
+	text-align: justify;
+	}
+

@@ -136,7 +136,7 @@ ul {
   padding-top:17px;
   margin:0;
   background-color: rgba(191,0,37,0);
-  transition: all .2s linear, background-color .1s;
+  transition: all .5s linear; 
   overflow-x:hidden;
 }
 .box:hover {

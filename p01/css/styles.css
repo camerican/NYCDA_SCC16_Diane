@@ -17,10 +17,36 @@ h2 {
 	font-size: 12px;
 	color:white;
 }
-
-p.indent{
-	left:300px;
+p {
+	font-family: verdana, sans-serif;
+	font-size: 14px;
+	color:white;
 }
+
+
+
+.chiatList{
+	width:150px;
+	height:300px;
+	font-weight: lighter;
+	position:absolute;
+	top:860px;
+	left:150px;
+} 
+
+ul{
+	list-style-type: none;
+}
+
+
+li{
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	color:white;
+	line-height:30px;
+	list-style-type: none;
+}
+ 
 .experienceBox{
 	width:100px;
 	height:100px;
@@ -43,7 +69,6 @@ p.indent{
 	top: 252px;
 	left:220px;
 	border:1px dotted black;
-	overflow:auto;
 }
 
 .copytenga{
@@ -70,7 +95,7 @@ p.all{
 	left:10px;
 	top:0px;
 	margin:0px;
-	background-image: url(../assets/RESUMEbackground.png);
+	background-image: url(../assets/RESUMEbackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -82,7 +107,7 @@ p.all{
 	position:absolute;
 	left:10px;
 	top:700px;
-	background-image: url(../assets/TBWAbackground.gif);
+	background-image: url(../assets/TBWAbackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -95,12 +120,13 @@ p.all{
 	position:absolute;
 	left:10px;
 	top:1400px;
-	background-image: url(../assets/DENTSUbackground.gif);
+	background-image: url(../assets/DENTSUbackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
 	z-index: -1;
 }
+
 
 .boxTENGA {
 	width:900px;
@@ -108,7 +134,7 @@ p.all{
 	position:absolute;
 	left:10px;
 	top:2100px;
-	background-image: url(../assets/TENGAbackground.gif);
+	background-image: url(../assets/TENGAbackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -121,9 +147,66 @@ p.all{
 	position:absolute;
 	left:10px;
 	top:2800px;
-	background-image: url(../assets/SRPbackground.gif);
+	background-image: url(../assets/SRPbackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
 	z-index: -1;
 }
+a:link{
+	color:rgb(20,20,180);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited{
+	color:yellow;
+	text-decoration: none;
+}
+
+a:hover.chiat {
+	color:rgba(130,10,0,1);
+	font-weight:normal;
+	text-decoration: none;
+}
+
+img.bnyTeaser{
+	position:absolute;
+	left:300px;
+	top:700px;
+	background-position: center;
+	opacity:.5;
+}
+
+img.beinTeaser{
+	position:absolute;
+	left:600px;
+	top:800px;
+	opacity:.5;
+}
+
+img.ethiconTeaser{
+	position:absolute;
+	left:780px;
+	top:760px;
+	opacity:.5;
+}
+
+img.mcdTeaser{
+	position:absolute;
+	left:380px;
+	top:860px;
+	opacity:.5;
+}
+
+img.mcdonaldsTeaser{
+	position:absolute;
+	left:780px;
+	top:760px;
+	opacity:.5;
+}
+img:hover{
+	opacity:1;
+}
+
+
